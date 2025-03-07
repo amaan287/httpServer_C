@@ -96,7 +96,6 @@ int main() {
         handle_client(client_socket);
     }
     
-    // Close the server socket (this part is not reached in this example)
     close(server_socket);
     return 0;
 }
